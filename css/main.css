@@ -123,20 +123,35 @@ body{
 }
 
 .contact-div li{
-    flex-basis: 110px;
+    /* flex-basis: 110px; */
     margin: 20px;
-    padding: 40px 0px;
-    background: var(--colorMain);
-    color: white;
-    border: 2px solid rgb(136, 134, 134);
-    border-radius: 50%;
-    box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.5);
+    /* padding: 40px 0px; */
+    /* background: var(--colorMain); */
+    /* background: white; */
+    border: 5px black;
+    /* color: white; */
+    /* border: 2px solid rgb(136, 134, 134); */
+    /* border-radius: 50%; */
+    /* box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.5); */
 }
+
+
 
 footer{
     background: var(--colorMain);
     text-align: center;
     padding: 10px;
     color:white;
+}
+
+
+/* Pseudo classes */
+
+.contact-ul img{
+    transition: 0.5s ease;
+}
+
+.contact-ul img:hover{
+    opacity: 0.6;
 }
 
