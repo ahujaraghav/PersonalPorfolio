@@ -1,0 +1,59 @@
+/* Mobile Device */
+@media (min-width: 576px){}
+
+/* Tablets */
+@media (min-width: 768px){
+
+    .logo{
+        display: initial;
+        margin-right: auto;
+        color: var(--colorAscent);
+    }
+
+    .header-nav ul{
+        justify-content: flex-end;
+    }
+    .header-nav li{
+        margin-left: 30px;
+    }
+
+    .ul-js{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .ul-js li{
+        width:40%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contact-div{
+        padding-bottom: 40px;
+    }
+
+    footer{
+        padding: 20px;
+    }
+
+}
+
+/* Desktops */
+@media (min-width: 992px){
+
+    .contact-div ul{
+        width: 60%;
+        margin: auto;
+    }
+
+    .ul-js li{
+        width:25%;
+    }
+
+}
+
+/* Large Screens */
+@media (min-width: 1200px){
+
+}
+
